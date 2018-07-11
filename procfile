@@ -1,1 +1,1 @@
-sd
+worker: python selfbot.py
