@@ -90,7 +90,7 @@ class Selfbot(commands.Bot):
         '''Returns your token wherever it is'''
         with open('data/config.json') as f:
             config = json.load(f)
-            if config.get('TOKEN') == "your_token_here":
+            if config.get('TOKEN') == "NDY2NTU4NDcyMzg1OTg2NTYx.Dieg4A.PHwVstj2B86NBRp4VVlL3iUfP_g":
                 if not os.environ.get('TOKEN'):
                     self.run_wizard()
             else:
@@ -111,7 +111,7 @@ class Selfbot(commands.Bot):
     def run_wizard():
         '''Wizard for first start'''
         print('------------------------------------------')
-        token = input('Enter your token:\n> ')
+        token = input('NDY2NTU4NDcyMzg1OTg2NTYx.Dieg4A.PHwVstj2B86NBRp4VVlL3iUfP_g:\n> ')
         print('------------------------------------------')
         prefix = input('Enter a prefix for your selfbot:\n> ')
         data = {
